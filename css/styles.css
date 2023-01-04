@@ -13,10 +13,18 @@ img {
     border-radius: 15px;
 }
 
+a:hover {
+    color: orange;
+}
+
 @media (max-width: 600px) {
     img {
         width: 100%;
         height: auto;
         border-radius: 15px;
+    }
+
+    body {
+        padding: 5px 15px;
     }
 }
