@@ -17,6 +17,14 @@ a:hover {
     color: orange;
 }
 
+a {
+    text-decoration: none;
+}
+
+a.footer-link {
+    color: black;
+}
+
 @media (max-width: 600px) {
     img {
         width: 100%;
